@@ -1,6 +1,6 @@
 /**
- * Shared components for Creatine Research static site.
- * Science-forward design. Blue/teal palette. SWS attribution.
+ * Shared components for Creatinepedia static site.
+ * Encyclopedia design. Blue/teal palette. SWS attribution.
  *
  * Forked from aifirstsearch-content/scripts/shared.js
  * Used by retemplate.js, generate-indexes.js, and root page updates.
@@ -20,7 +20,7 @@ const megaNavHtml = `
             <svg class="w-4 h-4 text-sky-600 dark:text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
           </div>
           <span class="text-slate-500 dark:text-zinc-400 text-sm tracking-tight">
-            <span class="text-slate-800 dark:text-zinc-200 font-medium">Creatine</span><span class="text-sky-600 dark:text-sky-400">Research</span>
+            <span class="text-slate-800 dark:text-zinc-200 font-medium">Creatine</span><span class="text-sky-600 dark:text-sky-400">pedia</span>
           </span>
         </a>
 
@@ -49,7 +49,7 @@ const megaNavHtml = `
           <div class="w-px h-4 bg-slate-300 dark:bg-zinc-800 mx-2"></div>
 
           <!-- CTA -->
-          <a href="#newsletter" class="px-5 py-2 text-sm font-semibold bg-sky-600 hover:bg-sky-500 text-white rounded-md transition-colors cta-glow">Research Updates</a>
+          <a href="#newsletter" class="px-5 py-2 text-sm font-semibold bg-sky-600 hover:bg-sky-500 text-white rounded-md transition-colors cta-glow">New Entries</a>
         </div>
 
         <!-- Mobile menu button -->
@@ -102,11 +102,11 @@ const megaNavHtml = `
             <!-- Column 3: CTA Card -->
             <div class="bg-gradient-to-br from-sky-500/10 to-teal-500/5 dark:from-sky-500/15 dark:to-teal-500/5 border border-sky-500/20 rounded-xl p-6 flex flex-col justify-between">
               <div>
-                <h3 class="text-lg font-semibold text-slate-900 dark:text-zinc-100 mb-2">Evidence-Based Research</h3>
-                <p class="text-sm text-slate-600 dark:text-zinc-400 mb-4">Every article cites peer-reviewed studies. No marketing hype. Just what the science shows.</p>
+                <h3 class="text-lg font-semibold text-slate-900 dark:text-zinc-100 mb-2">The Creatine Encyclopedia</h3>
+                <p class="text-sm text-slate-600 dark:text-zinc-400 mb-4">100 entries. Every claim cited from peer-reviewed sources. No marketing. No supplement sales.</p>
               </div>
               <a href="/science/creatine-mechanisms-summary" class="inline-flex items-center justify-center px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-semibold rounded-lg text-sm transition-colors cta-glow">
-                Complete Research Guide
+                Start Reading
               </a>
             </div>
           </div>
@@ -228,7 +228,7 @@ const megaNavHtml = `
           <a href="/articles" class="block py-3 text-slate-800 dark:text-zinc-200 font-medium">All Articles</a>
 
           <!-- CTA -->
-          <a href="#newsletter" class="block mt-4 py-3 bg-sky-600 text-white text-center font-semibold rounded-lg">Get Research Updates</a>
+          <a href="#newsletter" class="block mt-4 py-3 bg-sky-600 text-white text-center font-semibold rounded-lg">Get New Entries</a>
         </div>
       </div>
     </div>
@@ -395,10 +395,10 @@ const footerHtml = `
             <div class="w-8 h-8 rounded bg-slate-100 dark:bg-zinc-800 border border-slate-200 dark:border-zinc-700 flex items-center justify-center">
               <svg class="w-4 h-4 text-sky-600 dark:text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
             </div>
-            <span class="text-slate-700 dark:text-zinc-300 font-medium">Creatine Research</span>
+            <span class="text-slate-700 dark:text-zinc-300 font-medium">Creatinepedia</span>
           </div>
-          <p class="text-sm text-slate-600 dark:text-zinc-500 mb-6 max-w-xs">Evidence-based creatine research. Every claim cited. No marketing hype.</p>
-          <a href="#newsletter" class="inline-block px-5 py-2 text-sm font-semibold bg-sky-600 hover:bg-sky-500 text-white rounded-md transition-colors">Research Updates</a>
+          <p class="text-sm text-slate-600 dark:text-zinc-500 mb-6 max-w-xs">The creatine encyclopedia. 100 entries cited from peer-reviewed sources.</p>
+          <a href="#newsletter" class="inline-block px-5 py-2 text-sm font-semibold bg-sky-600 hover:bg-sky-500 text-white rounded-md transition-colors">New Entries</a>
         </div>
         <div>
           <p class="text-xs text-slate-500 dark:text-zinc-600 uppercase tracking-wider mb-4">Research</p>
@@ -435,7 +435,7 @@ const footerHtml = `
         </div>
       </div>
       <div class="pt-8 border-t border-slate-200 dark:border-zinc-900 flex flex-col md:flex-row items-center justify-between gap-4">
-        <p class="text-xs text-slate-500 dark:text-zinc-700">&copy; 2026 Creatine Research. All cited sources are property of their respective authors.</p>
+        <p class="text-xs text-slate-500 dark:text-zinc-700">&copy; 2026 Creatinepedia. All cited sources are property of their respective authors.</p>
         <p class="text-xs text-slate-500 dark:text-zinc-700">Powered by <a href="https://scalewithsearch.com" target="_blank" class="text-slate-600 dark:text-zinc-500 hover:text-sky-500">Scale With Search</a></p>
       </div>
     </div>

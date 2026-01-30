@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Creatine Research - Static Site Build Script
+ * Creatinepedia - Static Site Build Script
  *
  * Converts markdown files from content/ to HTML in dist/
  * - Parses frontmatter for metadata
@@ -20,7 +20,7 @@ const CONFIG = {
     templateDir: path.join(__dirname, '..', 'templates'),
     rootDir: path.join(__dirname, '..'),
     siteUrl: 'https://creatinepedia.com',
-    siteName: 'Creatine Research',
+    siteName: 'Creatinepedia',
     author: 'Scale With Search',
     defaultOgImage: '/images/og-default.webp'
 };
@@ -398,9 +398,9 @@ function loadTemplate() {
                 {{CONTENT}}
             </div>
             <section class="my-16 p-8 bg-gradient-to-br from-accent/20 via-surface to-surface-light rounded-2xl border border-accent/20 text-center">
-                <h2 class="text-2xl font-bold mb-4">Evidence-Based Creatine Research</h2>
-                <p class="text-lg text-text-muted mb-6">Every claim cited from peer-reviewed sources. Get the latest research delivered.</p>
-                <a href="#newsletter" class="inline-flex items-center justify-center px-8 py-4 bg-accent hover:bg-accent-light text-white text-lg font-semibold rounded-xl transition-colors">Get Research Updates</a>
+                <h2 class="text-2xl font-bold mb-4">The Creatine Encyclopedia</h2>
+                <p class="text-lg text-text-muted mb-6">Every claim cited from peer-reviewed sources. Get notified when new entries are published.</p>
+                <a href="#newsletter" class="inline-flex items-center justify-center px-8 py-4 bg-accent hover:bg-accent-light text-white text-lg font-semibold rounded-xl transition-colors">Get New Entries</a>
             </section>
         </article>
     </main>
@@ -758,7 +758,7 @@ function scanDistForPages() {
  * Main build function
  */
 function build() {
-    console.log('Creatine Research — Build\n');
+    console.log('Creatinepedia — Build\n');
 
     // Clean and create dist
     if (fs.existsSync(CONFIG.distDir)) {

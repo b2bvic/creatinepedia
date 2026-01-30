@@ -67,7 +67,7 @@ function escapeAttr(str) {
 
 function extractFromHtml(html) {
     const titleMatch = html.match(/<title>([\s\S]*?)<\/title>/);
-    const title = titleMatch ? titleMatch[1].trim() : 'Creatine Research';
+    const title = titleMatch ? titleMatch[1].trim() : 'Creatinepedia';
 
     const descMatch = html.match(/<meta\s+name="description"\s+content="([\s\S]*?)"/);
     const description = descMatch ? descMatch[1].trim() : '';
@@ -108,7 +108,7 @@ function buildTemplate(title, description, schemaBlocks, articleContent, categor
   <meta property="og:url" content="https://creatinepedia.com/${category}/${slug}">
   <meta property="og:title" content="${safeTitle}">
   <meta property="og:description" content="${safeDesc}">
-  <meta property="og:site_name" content="Creatine Research">
+  <meta property="og:site_name" content="Creatinepedia">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${safeTitle}">
   <meta name="twitter:description" content="${safeDesc}">
@@ -207,9 +207,9 @@ ${megaNavHtml}
 
       <!-- In-article CTA -->
       <div class="cta-box">
-        <h3>Stay Current on Creatine Research</h3>
-        <p>Get evidence-based updates when new studies are published. No hype, no marketing — just what the science shows.</p>
-        <a href="#newsletter" class="cta-button">Get Research Updates</a>
+        <h3>Stay Current with Creatinepedia</h3>
+        <p>Get notified when new entries are published. No hype, no marketing — just what the science shows.</p>
+        <a href="#newsletter" class="cta-button">Get New Entries</a>
       </div>
 
       <!-- Pillar page link -->${pillar ? `
@@ -234,8 +234,8 @@ ${megaNavHtml}
   <!-- Newsletter section -->
   <section id="newsletter" class="py-16 bg-slate-100 dark:bg-zinc-900/30 border-t border-slate-200 dark:border-zinc-800/60">
     <div class="max-w-xl mx-auto px-6 text-center">
-      <h2 class="font-serif text-3xl text-slate-900 dark:text-zinc-100 mb-3">Research Updates</h2>
-      <p class="text-slate-600 dark:text-zinc-400 mb-6">New studies, mechanism breakdowns, and dosing insights — delivered when they matter. No spam. Unsubscribe anytime.</p>
+      <h2 class="font-serif text-3xl text-slate-900 dark:text-zinc-100 mb-3">New Entries & Updates</h2>
+      <p class="text-slate-600 dark:text-zinc-400 mb-6">New encyclopedia entries and updates — delivered when they matter. No spam. Unsubscribe anytime.</p>
       <form class="flex flex-col sm:flex-row gap-3 justify-center" onsubmit="return false;">
         <input type="email" placeholder="your@email.com" class="px-4 py-3 rounded-lg border border-slate-300 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-sky-500 w-full sm:w-72">
         <button type="submit" class="px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-semibold rounded-lg transition-colors cta-glow">Subscribe</button>
