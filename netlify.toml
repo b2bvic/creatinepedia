@@ -1,0 +1,157 @@
+# Netlify Configuration for Creatine Research
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # Build command - converts markdown to HTML
+  command = "node scripts/build.js"
+
+  # Directory to publish (where build outputs to)
+  publish = "dist"
+
+  # Node version (LTS)
+  [build.environment]
+    NODE_VERSION = "20"
+
+# Production context
+[context.production]
+  command = "node scripts/build.js"
+
+# Deploy previews (PRs)
+[context.deploy-preview]
+  command = "node scripts/build.js"
+
+# Branch deploys
+[context.branch-deploy]
+  command = "node scripts/build.js"
+
+# Headers for all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Security headers
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+
+    # Content Security Policy
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'"
+
+# Cache static assets aggressively
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache fonts
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Moderate cache for HTML (allows updates)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+# Sitemap should be revalidated more frequently
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, must-revalidate"
+
+# Redirects
+# Pretty URLs - remove .html extension
+[[redirects]]
+  from = "/:slug"
+  to = "/:slug.html"
+  status = 200
+  force = false
+  conditions = {Language = ["en"]}
+
+# Cluster pages without .html
+[[redirects]]
+  from = "/science/:slug"
+  to = "/science/:slug.html"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/dosing/:slug"
+  to = "/dosing/:slug.html"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/sports/:slug"
+  to = "/sports/:slug.html"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/safety/:slug"
+  to = "/safety/:slug.html"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/comparisons/:slug"
+  to = "/comparisons/:slug.html"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/quality/:slug"
+  to = "/quality/:slug.html"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/pages/:slug"
+  to = "/pages/:slug.html"
+  status = 200
+  force = false
+
+# 404 fallback
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+# Plugins
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+  [plugins.inputs]
+    buildDir = "dist"
+    exclude = [
+      "/404",
+      "/404.html"
+    ]
+    prettyURLs = true

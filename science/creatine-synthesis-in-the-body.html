@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Your Body Makes Creatine: Endogenous Synthesis from...</title>
+  <meta name="description" content="Detailed explanation of endogenous creatine synthesis. The AGAT and GAMT enzymes, the kidney-liver axis, synthesis rate of approximately 1 g/day, dietary...">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://creatineresearch.co/science/creatine-synthesis-in-the-body">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://creatineresearch.co/science/creatine-synthesis-in-the-body">
+  <meta property="og:title" content="How Your Body Makes Creatine: Endogenous Synthesis from...">
+  <meta property="og:description" content="Detailed explanation of endogenous creatine synthesis. The AGAT and GAMT enzymes, the kidney-liver axis, synthesis rate of approximately 1 g/day, dietary...">
+  <meta property="og:site_name" content="Creatine Research">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How Your Body Makes Creatine: Endogenous Synthesis from...">
+  <meta name="twitter:description" content="Detailed explanation of endogenous creatine synthesis. The AGAT and GAMT enzymes, the kidney-liver axis, synthesis rate of approximately 1 g/day, dietary...">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the two-step pathway?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creatine synthesis occurs in two enzymatic steps, split across two organs. The first reaction takes place primarily in the kidney. The second takes place in the liver. The intermediate product, guanidinoacetate (GAA), travels through the bloodstream between these two sites. This inter-organ relay is one of the more distinctive features of creatine biochemistry."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is step one safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The first enzyme is arginine-glycine amidinotransferase, abbreviated AGAT (also known as GATM, the gene name). AGAT catalyzes the transfer of an amidino group from arginine to glycine, producing guanidinoacetate (GAA) and ornithine as a byproduct. This reaction occurs primarily in the renal tubular cells of the kidney, though AGAT expression has also been detected in the pancreas and brain at lower levels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is step two safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guanidinoacetate produced in the kidney enters the bloodstream and is taken up by the liver. There, the enzyme guanidinoacetate N-methyltransferase (GAMT) catalyzes the transfer of a methyl group from S-adenosylmethionine (SAM) to GAA, producing creatine and S-adenosylhomocysteine (SAH)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the synthesis rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The human body synthesizes approximately 1 gram of creatine per day through the AGAT-GAMT pathway. This figure, widely cited in the literature, was established through metabolic balance studies and isotope tracer experiments. It represents the production rate needed to replace daily creatine losses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the relationship between vegetarian and vegan creatine status?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Burke and colleagues (2003) compared muscle creatine concentrations between vegetarians and omnivores. Vegetarians had significantly lower intramuscular creatine and phosphocreatine stores. The difference was approximately 20-30% lower total creatine in vegetarians compared to omnivores matched for age, sex, and physical activity level."
+      }
+    }
+  ]
+}
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%230f172a' width='100' height='100' rx='12'/><text x='50' y='68' font-family='monospace' font-size='40' fill='%230284c7' text-anchor='middle'>Cr</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['DM Sans', 'system-ui', 'sans-serif'],
+            serif: ['Instrument Serif', 'Georgia', 'serif'],
+          },
+          colors: {
+            slate: { 925: '#0c0f14', 950: '#090b10' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    ::selection { background: rgba(2, 132, 199, 0.3); }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: var(--bg-secondary, #18181b); }
+    ::-webkit-scrollbar-thumb { background: var(--border, #27272a); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #3f3f46; }
+
+    /* Article body — light mode */
+    .article-body { max-width: 720px; margin: 0 auto; padding: 0 1rem; }
+    .article-body h1 { font-family: 'Instrument Serif', Georgia, serif; font-size: 2.75rem; line-height: 1.15; margin-bottom: 1rem; color: #0f172a; }
+    .article-body h2 { font-family: 'Instrument Serif', Georgia, serif; font-size: 1.875rem; margin: 2.5rem 0 1rem; color: #0f172a; }
+    .article-body h3 { font-size: 1.25rem; font-weight: 600; margin: 2rem 0 0.75rem; color: #0f172a; }
+    .article-body p { margin-bottom: 1.5rem; color: #475569; line-height: 1.8; }
+    .article-body a { color: #0284c7; text-decoration: none; }
+    .article-body a:hover { text-decoration: underline; }
+    .article-body ul, .article-body ol { margin: 1.5rem 0; padding-left: 1.5rem; color: #475569; }
+    .article-body li { margin-bottom: 0.75rem; line-height: 1.7; }
+    .article-body strong { color: #1e293b; }
+    .article-body blockquote { border-left: 3px solid #0284c7; padding-left: 1.5rem; margin: 2rem 0; font-style: italic; color: #334155; }
+    .article-body .meta { color: #64748b; font-size: 0.9rem; margin-bottom: 2rem; }
+    .article-body table { width: 100%; border-collapse: collapse; margin: 2rem 0; }
+    .article-body th, .article-body td { text-align: left; padding: 0.75rem 1rem; border-bottom: 1px solid #e2e8f0; color: #475569; }
+    .article-body th { color: #0f172a; font-weight: 600; border-bottom: 2px solid #cbd5e1; }
+    .article-body .cta-box {
+      background: linear-gradient(135deg, rgba(2, 132, 199, 0.08), rgba(13, 148, 136, 0.04));
+      border: 1px solid rgba(2, 132, 199, 0.2);
+      border-radius: 16px; padding: 2.5rem; margin: 3rem 0; text-align: center;
+    }
+    .article-body .cta-box h3 { margin-top: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 1.5rem; }
+    .article-body .cta-box p { color: #64748b; margin-bottom: 1.5rem; }
+    .article-body .cta-button {
+      display: inline-block; background: #0284c7; color: #ffffff;
+      padding: 1rem 2rem; border-radius: 8px; font-weight: 600;
+      text-decoration: none; transition: background 0.2s;
+    }
+    .article-body .cta-button:hover { background: #0ea5e9; text-decoration: none; }
+    .article-body .related-articles { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e2e8f0; }
+    .article-body .related-articles h3 { margin-bottom: 1rem; }
+    .article-body .related-articles ul { list-style: none; padding: 0; }
+    .article-body .related-articles li { margin-bottom: 0.5rem; }
+    .article-body .faq-section { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e2e8f0; }
+    .article-body .faq-section > h2 { margin-top: 0; }
+    .article-body .faq-item { margin-bottom: 2rem; }
+    .article-body .faq-item h3 { color: #0f172a; margin-bottom: 0.5rem; }
+    .article-body .faq-item p { margin-bottom: 0; }
+
+    /* Article body — dark mode */
+    .dark .article-body h1, .dark .article-body h2, .dark .article-body h3 { color: #fafaf9; }
+    .dark .article-body p { color: #a1a1aa; }
+    .dark .article-body ul, .dark .article-body ol { color: #a1a1aa; }
+    .dark .article-body strong { color: #e4e4e7; }
+    .dark .article-body a { color: #38bdf8; }
+    .dark .article-body blockquote { color: #d4d4d8; }
+    .dark .article-body .meta { color: #71717a; }
+    .dark .article-body th, .dark .article-body td { border-bottom-color: #27272a; color: #a1a1aa; }
+    .dark .article-body th { color: #fafaf9; border-bottom-color: #3f3f46; }
+    .dark .article-body .cta-box { background: linear-gradient(135deg, rgba(2, 132, 199, 0.12), rgba(13, 148, 136, 0.06)); }
+    .dark .article-body .cta-box p { color: #a1a1aa; }
+    .dark .article-body .related-articles { border-top-color: #27272a; }
+    .dark .article-body .faq-section { border-top-color: #27272a; }
+    .dark .article-body .faq-item h3 { color: #fafaf9; }
+
+    /* Newsletter section */
+    #newsletter input::placeholder { color: #94a3b8; }
+    .dark #newsletter input::placeholder { color: #52525b; }
+
+
+    /* Mega menu */
+    .mega-panel { transition: opacity 0.15s ease, visibility 0.15s ease; }
+    .mega-panel.hidden { opacity: 0; visibility: hidden; display: none; }
+    .mega-panel:not(.hidden) { opacity: 1; visibility: visible; display: block; }
+    .mega-link {
+      display: block; padding: 6px 0;
+      font-size: 0.875rem; color: #475569;
+      transition: color 0.15s;
+    }
+    .mega-link:hover { color: #0f172a; text-decoration: none; }
+    .dark .mega-link { color: #a1a1aa; }
+    .dark .mega-link:hover { color: #fafaf9; }
+    .mega-view-all {
+      display: inline-block; margin-top: 12px;
+      font-size: 0.8125rem; font-weight: 500;
+      color: #0284c7; transition: color 0.15s;
+    }
+    .mega-view-all:hover { color: #0ea5e9; text-decoration: none; }
+    .dark .mega-view-all { color: #38bdf8; }
+    .dark .mega-view-all:hover { color: #7dd3fc; }
+
+    /* Nav effects */
+    .nav-link { position: relative; }
+    .nav-link::after {
+      content: ''; position: absolute; bottom: -2px; left: 0;
+      width: 0; height: 1px; background: #0284c7; transition: width 0.3s ease;
+    }
+    .nav-link:hover::after { width: 100%; }
+    .cta-glow { position: relative; }
+    .cta-glow::before {
+      content: ''; position: absolute; inset: -2px;
+      background: linear-gradient(135deg, #0284c7, #0891b2);
+      border-radius: inherit; opacity: 0; filter: blur(12px);
+      transition: opacity 0.3s ease; z-index: -1;
+    }
+    .cta-glow:hover::before { opacity: 0.4; }
+
+    /* Active trigger state */
+    .mega-trigger[aria-expanded="true"] { color: #0f172a; }
+    .dark .mega-trigger[aria-expanded="true"] { color: #fafaf9; }
+    .mega-trigger[aria-expanded="true"] svg { transform: rotate(180deg); }
+
+
+    @media (max-width: 768px) {
+      .article-body h1 { font-size: 2rem; }
+      .article-body h2 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 font-sans antialiased">
+
+  <nav class="fixed top-0 left-0 right-0 z-50 border-b border-slate-200 dark:border-zinc-800/60 bg-white/90 dark:bg-slate-950/90 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex items-center justify-between h-16 px-6">
+        <!-- Logo -->
+        <a href="/" class="flex items-center gap-3 group">
+          <div class="w-8 h-8 rounded-md bg-slate-100 dark:bg-zinc-800 border border-slate-200 dark:border-zinc-700 flex items-center justify-center group-hover:border-sky-500/50 transition-colors">
+            <svg class="w-4 h-4 text-sky-600 dark:text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+          </div>
+          <span class="text-slate-500 dark:text-zinc-400 text-sm tracking-tight">
+            <span class="text-slate-800 dark:text-zinc-200 font-medium">Creatine</span><span class="text-sky-600 dark:text-sky-400">Research</span>
+          </span>
+        </a>
+
+        <!-- Desktop Nav -->
+        <div class="hidden lg:flex items-center gap-1">
+
+          <!-- Science dropdown -->
+          <div class="relative" data-mega="science">
+            <button class="mega-trigger nav-link px-4 py-2 text-sm text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-zinc-200 transition-colors flex items-center gap-1">
+              Research
+              <svg class="w-3 h-3 opacity-50 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+          </div>
+
+          <!-- Applications dropdown -->
+          <div class="relative" data-mega="applications">
+            <button class="mega-trigger nav-link px-4 py-2 text-sm text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-zinc-200 transition-colors flex items-center gap-1">
+              Applications
+              <svg class="w-3 h-3 opacity-50 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+          </div>
+
+          <!-- All Articles link -->
+          <a href="/articles" class="nav-link px-4 py-2 text-sm text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-zinc-200 transition-colors">All Articles</a>
+
+          <div class="w-px h-4 bg-slate-300 dark:bg-zinc-800 mx-2"></div>
+
+          <!-- CTA -->
+          <a href="#newsletter" class="px-5 py-2 text-sm font-semibold bg-sky-600 hover:bg-sky-500 text-white rounded-md transition-colors cta-glow">Research Updates</a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-zinc-200">
+          <svg id="menu-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          <svg id="close-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+
+      <!-- ═══ MEGA PANEL: Research ═══ -->
+      <div id="mega-science" class="mega-panel hidden border-t border-slate-200 dark:border-zinc-800/60 bg-white dark:bg-slate-950">
+        <div class="max-w-7xl mx-auto px-6 py-8">
+          <div class="grid grid-cols-3 gap-8">
+            <!-- Column 1: Science -->
+            <div>
+              <div class="flex items-center gap-2 mb-4">
+                <svg class="w-4 h-4 text-sky-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                <span class="text-xs font-semibold tracking-wider text-slate-500 dark:text-zinc-500 uppercase">Science & Mechanisms</span>
+              </div>
+              <div class="space-y-1">
+                <a href="/science/what-is-creatine-monohydrate" class="mega-link">What Is Creatine Monohydrate?</a>
+                <a href="/science/how-creatine-works-in-the-body" class="mega-link">How Creatine Works</a>
+                <a href="/science/creatine-atp-resynthesis" class="mega-link">ATP Resynthesis</a>
+                <a href="/science/creatine-and-muscle-growth" class="mega-link">Muscle Growth Research</a>
+                <a href="/science/creatine-and-brain-function" class="mega-link">Brain Function</a>
+                <a href="/science/creatine-and-aging" class="mega-link">Aging & Sarcopenia</a>
+              </div>
+              <a href="/science" class="mega-view-all">All 20 articles &rarr;</a>
+            </div>
+
+            <!-- Column 2: Dosing & Safety -->
+            <div>
+              <div class="flex items-center gap-2 mb-4">
+                <svg class="w-4 h-4 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                <span class="text-xs font-semibold tracking-wider text-slate-500 dark:text-zinc-500 uppercase">Dosing & Safety</span>
+              </div>
+              <div class="space-y-1">
+                <a href="/dosing/creatine-loading-protocol" class="mega-link">Loading Protocol</a>
+                <a href="/dosing/creatine-maintenance-dose" class="mega-link">Maintenance Dosing</a>
+                <a href="/dosing/creatine-timing-before-or-after-workout" class="mega-link">Timing: Before or After?</a>
+                <a href="/safety/is-creatine-safe" class="mega-link">Is Creatine Safe?</a>
+                <a href="/safety/creatine-and-kidneys" class="mega-link">Kidney Health</a>
+                <a href="/safety/creatine-and-hair-loss" class="mega-link">Hair Loss Myth</a>
+              </div>
+              <a href="/dosing" class="mega-view-all">Dosing (15) &rarr;</a>
+              <span class="mx-2 text-slate-300 dark:text-zinc-700">|</span>
+              <a href="/safety" class="mega-view-all">Safety (15) &rarr;</a>
+            </div>
+
+            <!-- Column 3: CTA Card -->
+            <div class="bg-gradient-to-br from-sky-500/10 to-teal-500/5 dark:from-sky-500/15 dark:to-teal-500/5 border border-sky-500/20 rounded-xl p-6 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-semibold text-slate-900 dark:text-zinc-100 mb-2">Evidence-Based Research</h3>
+                <p class="text-sm text-slate-600 dark:text-zinc-400 mb-4">Every article cites peer-reviewed studies. No marketing hype. Just what the science shows.</p>
+              </div>
+              <a href="/science/creatine-mechanisms-summary" class="inline-flex items-center justify-center px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-semibold rounded-lg text-sm transition-colors cta-glow">
+                Complete Research Guide
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ═══ MEGA PANEL: Applications ═══ -->
+      <div id="mega-applications" class="mega-panel hidden border-t border-slate-200 dark:border-zinc-800/60 bg-white dark:bg-slate-950">
+        <div class="max-w-7xl mx-auto px-6 py-8">
+          <div class="grid grid-cols-4 gap-8">
+            <!-- Column 1: By Sport -->
+            <div>
+              <div class="flex items-center gap-2 mb-4">
+                <svg class="w-4 h-4 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                <span class="text-xs font-semibold tracking-wider text-slate-500 dark:text-zinc-500 uppercase">By Sport</span>
+              </div>
+              <div class="space-y-1">
+                <a href="/sports/creatine-for-powerlifting" class="mega-link">Powerlifting</a>
+                <a href="/sports/creatine-for-bodybuilding" class="mega-link">Bodybuilding</a>
+                <a href="/sports/creatine-for-crossfit" class="mega-link">CrossFit</a>
+                <a href="/sports/creatine-for-mma" class="mega-link">MMA & Combat Sports</a>
+                <a href="/sports/creatine-for-soccer" class="mega-link">Soccer</a>
+                <a href="/sports/creatine-for-swimming" class="mega-link">Swimming</a>
+              </div>
+              <a href="/sports" class="mega-view-all">All 20 sports &rarr;</a>
+            </div>
+
+            <!-- Column 2: Comparisons -->
+            <div>
+              <div class="flex items-center gap-2 mb-4">
+                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                <span class="text-xs font-semibold tracking-wider text-slate-500 dark:text-zinc-500 uppercase">vs Other Supplements</span>
+              </div>
+              <div class="space-y-1">
+                <a href="/comparisons/creatine-vs-protein-powder" class="mega-link">vs Protein Powder</a>
+                <a href="/comparisons/creatine-vs-bcaa" class="mega-link">vs BCAAs</a>
+                <a href="/comparisons/creatine-vs-beta-alanine" class="mega-link">vs Beta-Alanine</a>
+                <a href="/comparisons/creatine-vs-pre-workout" class="mega-link">vs Pre-Workout</a>
+                <a href="/comparisons/creatine-vs-ashwagandha" class="mega-link">vs Ashwagandha</a>
+              </div>
+              <a href="/comparisons" class="mega-view-all">All 15 comparisons &rarr;</a>
+            </div>
+
+            <!-- Column 3: Product Quality -->
+            <div>
+              <div class="flex items-center gap-2 mb-4">
+                <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                <span class="text-xs font-semibold tracking-wider text-slate-500 dark:text-zinc-500 uppercase">Product Quality</span>
+              </div>
+              <div class="space-y-1">
+                <a href="/quality/creatine-monohydrate-vs-hcl" class="mega-link">Monohydrate vs HCl</a>
+                <a href="/quality/creatine-forms-comparison" class="mega-link">All Forms Compared</a>
+                <a href="/quality/third-party-testing-creatine" class="mega-link">Third-Party Testing</a>
+                <a href="/quality/creapure-vs-generic-creatine" class="mega-link">Creapure vs Generic</a>
+                <a href="/quality/creatine-buying-guide" class="mega-link">Buying Guide</a>
+              </div>
+              <a href="/quality" class="mega-view-all">All 15 guides &rarr;</a>
+            </div>
+
+            <!-- Column 4: Quick Links -->
+            <div>
+              <div class="flex items-center gap-2 mb-4">
+                <svg class="w-4 h-4 text-sky-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                <span class="text-xs font-semibold tracking-wider text-slate-500 dark:text-zinc-500 uppercase">Quick Links</span>
+              </div>
+              <div class="space-y-1">
+                <a href="/science/creatine-mechanisms-summary" class="mega-link">Complete Science Guide</a>
+                <a href="/dosing/creatine-dosing-protocols-summary" class="mega-link">Complete Dosing Guide</a>
+                <a href="/safety/creatine-safety-complete-guide" class="mega-link">Complete Safety Guide</a>
+                <a href="/sports/creatine-for-sport-summary" class="mega-link">Every Sport Guide</a>
+                <a href="/quality/creatine-buying-guide" class="mega-link">Buying Guide</a>
+              </div>
+              <a href="/articles" class="mega-view-all">All 100 articles &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ═══ Mobile Menu ═══ -->
+      <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 dark:border-zinc-800 bg-white dark:bg-slate-950 max-h-[80vh] overflow-y-auto">
+        <div class="px-6 py-4 space-y-1">
+          <!-- Research -->
+          <button class="mobile-section-toggle w-full flex items-center justify-between py-3 text-slate-800 dark:text-zinc-200 font-medium">
+            Research
+            <svg class="w-4 h-4 text-slate-400 dark:text-zinc-600 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="mobile-section hidden pl-4 pb-3 space-y-1">
+            <p class="text-xs text-slate-400 dark:text-zinc-600 uppercase tracking-wider pt-1 pb-1">Science</p>
+            <a href="/science/what-is-creatine-monohydrate" class="block py-1.5 text-sm text-slate-600 dark:text-zinc-400 hover:text-slate-900 dark:hover:text-white">What Is Creatine?</a>
+            <a href="/science/how-creatine-works-in-the-body" class="block py-1.5 text-sm text-slate-600 dark:text-zinc-400 hover:text-slate-900 dark:hover:text-white">How Creatine Works</a>
+            <a href="/science" class="block py-1.5 text-sm text-sky-600 dark:text-sky-400 font-medium">All 20 articles &rarr;</a>
+            <p class="text-xs text-slate-400 dark:text-zinc-600 uppercase tracking-wider pt-3 pb-1">Dosing</p>
+            <a href="/dosing/creatine-loading-protocol" class="block py-1.5 text-sm text-slate-600 dark:text-zinc-400 hover:text-slate-900 dark:hover:text-white">Loading Protocol</a>
+            <a href="/dosing/creatine-maintenance-dose" class="block py-1.5 text-sm text-slate-600 dark:text-zinc-400 hover:text-slate-900 dark:hover:text-white">Maintenance Dose</a>
+            <a href="/dosing" class="block py-1.5 text-sm text-sky-600 dark:text-sky-400 font-medium">All 15 articles &rarr;</a>
+            <p class="text-xs text-slate-400 dark:text-zinc-600 uppercase tracking-wider pt-3 pb-1">Safety</p>
+            <a href="/safety/is-creatine-safe" class="block py-1.5 text-sm text-slate-600 dark:text-zinc-400 hover:text-slate-900 dark:hover:text-white">Is Creatine Safe?</a>
+            <a href="/safety/creatine-and-kidneys" class="block py-1.5 text-sm text-slate-600 dark:text-zinc-400 hover:text-slate-900 dark:hover:text-white">Kidney Health</a>
+            <a href="/safety" class="block py-1.5 text-sm text-sky-600 dark:text-sky-400 font-medium">All 15 articles &rarr;</a>
+          </div>
+
+          <!-- Applications -->
+          <button class="mobile-section-toggle w-full flex items-center justify-between py-3 text-slate-800 dark:text-zinc-200 font-medium">
+            Applications
+            <svg class="w-4 h-4 text-slate-400 dark:text-zinc-600 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="mobile-section hidden pl-4 pb-3 space-y-1">
+            <p class="text-xs text-slate-400 dark:text-zinc-600 uppercase tracking-wider pt-1 pb-1">Sports</p>
+            <a href="/sports/creatine-for-powerlifting" class="block py-1.5 text-sm text-slate-600 dark:text-zinc-400 hover:text-slate-900 dark:hover:text-white">Powerlifting</a>
+            <a href="/sports/creatine-for-bodybuilding" class="block py-1.5 text-sm text-slate-600 dark:text-zinc-400 hover:text-slate-900 dark:hover:text-white">Bodybuilding</a>
+            <a href="/sports" class="block py-1.5 text-sm text-sky-600 dark:text-sky-400 font-medium">All 20 sports &rarr;</a>
+            <p class="text-xs text-slate-400 dark:text-zinc-600 uppercase tracking-wider pt-3 pb-1">Comparisons</p>
+            <a href="/comparisons/creatine-vs-protein-powder" class="block py-1.5 text-sm text-slate-600 dark:text-zinc-400 hover:text-slate-900 dark:hover:text-white">vs Protein Powder</a>
+            <a href="/comparisons/creatine-vs-bcaa" class="block py-1.5 text-sm text-slate-600 dark:text-zinc-400 hover:text-slate-900 dark:hover:text-white">vs BCAAs</a>
+            <a href="/comparisons" class="block py-1.5 text-sm text-sky-600 dark:text-sky-400 font-medium">All 15 comparisons &rarr;</a>
+          </div>
+
+          <!-- Direct links -->
+          <a href="/articles" class="block py-3 text-slate-800 dark:text-zinc-200 font-medium">All Articles</a>
+
+          <!-- CTA -->
+          <a href="#newsletter" class="block mt-4 py-3 bg-sky-600 text-white text-center font-semibold rounded-lg">Get Research Updates</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-24 pb-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 mb-6">
+      <div class="flex items-center gap-2 text-sm">
+        <a href="/" class="text-slate-400 dark:text-zinc-600 hover:text-slate-600 dark:hover:text-zinc-400 transition-colors">Home</a>
+        <span class="text-slate-300 dark:text-zinc-700">/</span>
+        <a href="/articles" class="text-slate-400 dark:text-zinc-600 hover:text-slate-600 dark:hover:text-zinc-400 transition-colors">Articles</a>
+        <span class="text-slate-300 dark:text-zinc-700">/</span>
+        <a href="/science" class="text-slate-400 dark:text-zinc-600 hover:text-slate-600 dark:hover:text-zinc-400 transition-colors">Science & Mechanisms</a>
+      </div>
+    </div>
+    <div class="article-body">
+      <article>
+    <header class="mb-10">
+      <h1 class="text-4xl md:text-5xl font-serif mb-4">How Your Body Makes Creatine: Endogenous Synthesis from Arginine, Glycine, and Methionine</h1>
+      <p class="text-lg text-slate-600 dark:text-zinc-400">Before creatine reaches your muscles as a supplement, your body is already producing it. The synthesis pathway is a two-organ collaboration using three amino acids. Understanding this process explains why dietary choices, organ function, and supplementation all influence creatine status.</p>
+      <div class="mt-4 flex items-center gap-4 text-sm text-slate-500 dark:text-zinc-500">
+        <time datetime="2026-01-28">January 28, 2026</time>
+        <span>&#183;</span>
+        <span>10 min read</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>The Two-Step Pathway</h2>
+      <p>Creatine synthesis occurs in two enzymatic steps, split across two organs. The first reaction takes place primarily in the kidney. The second takes place in the liver. The intermediate product, guanidinoacetate (GAA), travels through the bloodstream between these two sites. This inter-organ relay is one of the more distinctive features of creatine biochemistry.</p>
+      <p>Walker (1979) provided one of the foundational descriptions of this pathway in his review for Advances in Enzymology, characterizing the enzymology and regulation that subsequent decades of research have refined. Brosnan and Brosnan (2007) published a comprehensive update in the Annual Review of Nutrition that remains the definitive modern review of endogenous creatine synthesis.</p>
+    </section>
+
+    <section>
+      <h2>Step One: AGAT in the Kidney</h2>
+      <p>The first enzyme is arginine-glycine amidinotransferase, abbreviated AGAT (also known as GATM, the gene name). AGAT catalyzes the transfer of an amidino group from arginine to glycine, producing guanidinoacetate (GAA) and ornithine as a byproduct. This reaction occurs primarily in the renal tubular cells of the kidney, though AGAT expression has also been detected in the pancreas and brain at lower levels.</p>
+      <p>The substrates are two amino acids: arginine and glycine. Both are conditionally essential, meaning the body can synthesize them but may not produce sufficient quantities under all conditions. Glycine, in particular, has been identified as a potentially limiting substrate for creatine synthesis in some dietary contexts, a point that becomes relevant when discussing vegetarian populations.</p>
+      <p>AGAT is the rate-limiting step of creatine synthesis. Its activity is subject to feedback inhibition by creatine itself. When intracellular creatine levels are high, whether from dietary intake or supplementation, AGAT activity is downregulated. This feedback mechanism means that exogenous creatine intake reduces, but does not eliminate, endogenous production. The downregulation is reversible: when supplementation ceases, AGAT activity returns to baseline over days to weeks.</p>
+      <p>The regulatory sensitivity of AGAT has clinical implications. Patients with chronic kidney disease have reduced AGAT capacity, which may contribute to the lower creatine stores observed in this population. This is separate from the kidney's role in creatinine excretion and represents a synthetic rather than excretory impairment.</p>
+    </section>
+
+    <section>
+      <h2>Step Two: GAMT in the Liver</h2>
+      <p>Guanidinoacetate produced in the kidney enters the bloodstream and is taken up by the liver. There, the enzyme guanidinoacetate N-methyltransferase (GAMT) catalyzes the transfer of a methyl group from S-adenosylmethionine (SAM) to GAA, producing creatine and S-adenosylhomocysteine (SAH).</p>
+      <p>This reaction has broad metabolic significance because SAM is the body's primary methyl donor. The GAMT reaction consumes a substantial fraction of total SAM-derived methyl groups. Brosnan and Brosnan (2007) estimated that creatine synthesis accounts for approximately 40% of all SAM-dependent methylation reactions in the body. This makes creatine synthesis the single largest consumer of methyl groups, exceeding the demands of DNA methylation, phosphatidylcholine synthesis, and all other methyltransferase reactions combined.</p>
+      <p>The methyl donor for SAM is methionine, an essential amino acid obtained exclusively from the diet. Methionine is converted to SAM by methionine adenosyltransferase. After donating its methyl group in the GAMT reaction, SAH is hydrolyzed to homocysteine, which can be remethylated back to methionine (using folate and vitamin B12) or directed into the transsulfuration pathway. This places creatine synthesis at a metabolic crossroads involving methionine, folate, B12, and homocysteine metabolism.</p>
+      <p>The implication is that creatine supplementation, by reducing endogenous synthesis through AGAT feedback inhibition, spares SAM and methyl groups for other reactions. This methyl-sparing effect has been proposed as a secondary benefit of creatine supplementation, particularly in populations with marginal methionine, folate, or B12 status. Stead and colleagues (2006) provided quantitative evidence for this effect, showing that creatine supplementation reduced plasma homocysteine concentrations, consistent with reduced demand on the methionine-homocysteine cycle.</p>
+    </section>
+
+    <section>
+      <h2>Synthesis Rate: Approximately 1 Gram Per Day</h2>
+      <p>The human body synthesizes approximately 1 gram of creatine per day through the AGAT-GAMT pathway. This figure, widely cited in the literature, was established through metabolic balance studies and isotope tracer experiments. It represents the production rate needed to replace daily creatine losses.</p>
+      <p>Creatine is degraded non-enzymatically into creatinine at a rate of approximately 1.7% of the total creatine pool per day. For an individual with a total body creatine pool of approximately 120 grams (the estimated total for a 70 kg male), this translates to roughly 2 grams of creatinine produced daily. Of this, about half is replaced by endogenous synthesis and the remainder by dietary creatine intake in omnivores.</p>
+      <p>The synthesis rate is not fixed. It adjusts in response to dietary creatine intake through the AGAT feedback mechanism. In individuals consuming no dietary creatine (vegans), endogenous synthesis increases to partially compensate, but may not fully replace what an omnivorous diet provides. In individuals consuming high amounts of meat and fish, endogenous synthesis decreases. This regulatory flexibility means that total body creatine status is determined by the sum of dietary intake and endogenous production, with the two sources existing in a dynamic balance.</p>
+    </section>
+
+    <section>
+      <h2>Dietary Creatine: Sources and Quantities</h2>
+      <p>Creatine is found naturally in animal tissues, with the highest concentrations in skeletal muscle. Red meat (beef, pork, lamb) and fish are the richest dietary sources, containing approximately 3-5 grams of creatine per kilogram of raw tissue. Cooking reduces creatine content by 15-30%, depending on temperature and duration, because heat converts creatine to creatinine.</p>
+      <p>A typical omnivorous diet provides approximately 1-2 grams of creatine per day, depending on the quantity and type of animal products consumed. Combined with endogenous synthesis of approximately 1 gram per day, total daily creatine availability for an omnivore is roughly 2-3 grams. Since daily creatine turnover (degradation to creatinine) is approximately 2 grams, this maintains a stable total body pool.</p>
+      <p>Dairy products and eggs contain very small amounts of creatine. Plant foods contain essentially none. This creates a meaningful difference in creatine status between dietary patterns, which has been quantified in several studies.</p>
+    </section>
+
+    <section>
+      <h2>Vegetarian and Vegan Creatine Status</h2>
+      <p>Burke and colleagues (2003) compared muscle creatine concentrations between vegetarians and omnivores. Vegetarians had significantly lower intramuscular creatine and phosphocreatine stores. The difference was approximately 20-30% lower total creatine in vegetarians compared to omnivores matched for age, sex, and physical activity level.</p>
+      <p>This lower baseline is explained by the absence of dietary creatine. Although AGAT upregulates in response to the lack of dietary input, the increased endogenous synthesis does not fully compensate. The body's synthetic capacity has limits set by enzyme expression levels, substrate availability (arginine, glycine, methionine), and the metabolic cost of methylation.</p>
+      <p>The practical consequence is that vegetarians and vegans tend to show larger absolute and relative responses to creatine supplementation. When supplementation begins, the depleted creatine pool has more room to fill. Benton and Donohoe (2011) found that vegetarians who supplemented with creatine showed greater improvements in cognitive tasks than omnivore supplementers, consistent with a larger relative increase in brain creatine from a lower baseline.</p>
+      <p>This does not mean that vegetarians are creatine-deficient in a clinical sense. They function normally with lower creatine stores. But they operate further from the theoretical maximum, and supplementation moves them closer to the levels that omnivores maintain through diet alone.</p>
+    </section>
+
+    <section>
+      <h2>The Creatine Transporter: Getting It Into Cells</h2>
+      <p>Once creatine is synthesized in the liver (or absorbed from the diet through the intestine), it must enter target cells. This requires an active transport process because creatine is a charged molecule that cannot freely cross cell membranes. The sodium- and chloride-dependent creatine transporter, encoded by the SLC6A8 gene, is responsible for this uptake.</p>
+      <p>SLC6A8 is expressed in skeletal muscle, heart, brain, kidney, and testes, among other tissues. The transporter moves creatine against its concentration gradient using the electrochemical energy of the sodium gradient maintained by the Na+/K+-ATPase. Insulin and insulin-like growth factor 1 (IGF-1) enhance creatine transporter activity, which is why some early supplementation protocols recommended combining creatine with carbohydrate-rich meals to spike insulin.</p>
+      <p>Genetic deficiency of SLC6A8 causes cerebral creatine deficiency syndrome, a severe condition characterized by intellectual disability, seizures, and speech delay. This rare inborn error of metabolism demonstrates the critical importance of creatine transport to brain function. It also confirms that endogenous brain synthesis alone, which does occur via local AGAT and GAMT expression, is insufficient to meet cerebral creatine demands.</p>
+    </section>
+
+    <section>
+      <h2>Regulation and Feedback</h2>
+      <p>The creatine synthesis pathway is primarily regulated at the level of AGAT. Creatine itself acts as a feedback inhibitor, reducing AGAT transcription when intracellular creatine concentrations are elevated. This mechanism ensures that endogenous production adjusts to dietary intake, maintaining homeostasis without wasteful overproduction.</p>
+      <p>The feedback is not instantaneous. When creatine supplementation begins, AGAT downregulation takes several days to weeks to reach a new steady state. When supplementation stops, the restoration of full AGAT activity similarly requires time. This lag explains why muscle creatine stores decline gradually over 4-6 weeks after cessation of supplementation rather than dropping immediately.</p>
+      <p>GAMT does not appear to be subject to the same degree of product inhibition. Its activity is more consistently determined by substrate availability, particularly GAA concentrations arriving from the kidney. The liver's role is primarily to methylate whatever GAA is delivered to it, making the kidney's AGAT reaction the true gatekeeper of synthesis rate.</p>
+    </section>
+
+    <section>
+      <h2>Metabolic Cost of Creatine Synthesis</h2>
+      <p>The endogenous production of 1 gram of creatine per day requires approximately 1 gram each of arginine, glycine, and methionine (as the methyl donor via SAM). This amino acid cost is non-trivial. Brosnan and Brosnan estimated that creatine synthesis places a meaningful demand on the body's amino acid economy, particularly for glycine and methionine.</p>
+      <p>Glycine is used in numerous biosynthetic reactions including glutathione production, heme synthesis, nucleotide synthesis, and collagen formation. De Koning and colleagues (2003) argued that glycine availability may be conditionally limiting in some populations, particularly during growth, pregnancy, and in individuals with low protein intake. If creatine synthesis competes with these other glycine-dependent processes, exogenous creatine supplementation could free glycine for alternative uses.</p>
+      <p>Methionine demand for creatine synthesis feeds into the broader one-carbon metabolism network. Inadequate folate or B12 status impairs the remethylation of homocysteine to methionine, potentially creating a bottleneck that affects creatine synthesis alongside other methylation-dependent processes. This interconnection is one reason why researchers have proposed creatine supplementation as a component of nutritional strategies targeting homocysteine management.</p>
+    </section>
+
+    <section>
+      <h2>Clinical Relevance</h2>
+      <p>Understanding endogenous synthesis matters beyond academic biochemistry. Patients with chronic kidney disease may have impaired AGAT function, contributing to muscle wasting and fatigue. Individuals on vegan diets have lower creatine stores and may benefit disproportionately from supplementation. People with inborn errors of creatine metabolism (AGAT deficiency, GAMT deficiency, SLC6A8 deficiency) present with severe neurological symptoms that respond variably to creatine supplementation depending on which step is affected.</p>
+      <p>For healthy individuals, the synthesis pathway operates quietly and efficiently. The body makes what it needs, adjusts to what you eat, and maintains a stable pool. Supplementation overrides the regulatory system temporarily, saturating stores beyond what diet and synthesis alone achieve. When supplementation stops, the system returns to its baseline set point. The pathway's built-in flexibility is what makes creatine supplementation both effective and reversible.</p>
+    </section>
+
+    <!-- Bibliography -->
+    <section class="mt-16 pt-8 border-t border-slate-200 dark:border-zinc-800">
+      <h2>References</h2>
+      <ol class="space-y-3 text-sm text-slate-600 dark:text-zinc-400">
+        <li>Brosnan JT, Brosnan ME. Creatine: endogenous metabolite, dietary, and therapeutic supplement. <em>Annual Review of Nutrition</em>. 2007;27:241-261. doi:10.1146/annurev.nutr.27.061406.093621. PMID: 17395861.</li>
+        <li>Walker JB. Creatine: biosynthesis, regulation, and function. <em>Advances in Enzymology and Related Areas of Molecular Biology</em>. 1979;50:177-242. doi:10.1002/9780470122952.ch4. PMID: 396686.</li>
+        <li>Stead LM, Au KP, Jacobs RL, Brosnan ME, Brosnan JT. Methylation demand and homocysteine metabolism: effects of dietary provision of creatine and guanidinoacetate. <em>American Journal of Physiology-Endocrinology and Metabolism</em>. 2001;281(5):E1095-E1100. doi:10.1152/ajpendo.2001.281.5.E1095. PMID: 11595668.</li>
+        <li>Burke DG, Chilibeck PD, Parise G, Candow DG, Mahoney D, Tarnopolsky MA. Effect of creatine and weight training on muscle creatine and performance in vegetarians. <em>Medicine and Science in Sports and Exercise</em>. 2003;35(11):1946-1955. doi:10.1249/01.MSS.0000093614.17517.79. PMID: 14600563.</li>
+        <li>Benton D, Donohoe R. The influence of creatine supplementation on the cognitive functioning of vegetarians and omnivores. <em>British Journal of Nutrition</em>. 2011;105(7):1100-1105. doi:10.1017/S0007114510004733. PMID: 21118604.</li>
+        <li>de Koning TJ, Snell K, Duran M, Berger R, Poll-The BT, Surtees R. L-serine in disease and development. <em>Biochemical Journal</em>. 2003;371(Pt 3):653-661. doi:10.1042/bj20021785. PMID: 12534373.</li>
+        <li>Snow RJ, Murphy RM. Factors influencing creatine loading into human skeletal muscle. <em>Exercise and Sport Sciences Reviews</em>. 2003;31(3):154-158. doi:10.1097/00003677-200307000-00010. PMID: 12882483.</li>
+        <li>Wyss M, Kaddurah-Daouk R. Creatine and creatinine metabolism. <em>Physiological Reviews</em>. 2000;80(3):1107-1213. doi:10.1152/physrev.2000.80.3.1107. PMID: 10893433.</li>
+        <li>Salomons GS, van Dooren SJ, Verhoeven NM, et al. X-linked creatine-transporter gene (SLC6A8) defect: a new creatine-deficiency syndrome. <em>American Journal of Human Genetics</em>. 2001;68(6):1497-1500. doi:10.1086/320595. PMID: 11326334.</li>
+        <li>Stead LM, Brosnan JT, Brosnan ME, Vance DE, Jacobs RL. Is it time to reevaluate methyl balance in humans? <em>American Journal of Clinical Nutrition</em>. 2006;83(1):5-10. doi:10.1093/ajcn/83.1.5. PMID: 16400042.</li>
+        <li>Kreider RB, Kalman DS, Antonio J, et al. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. <em>Journal of the International Society of Sports Nutrition</em>. 2017;14:18. doi:10.1186/s12970-017-0173-z. PMID: 28615996.</li>
+      </ol>
+    </section>
+      
+      <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+          <h3>What is the two-step pathway?</h3>
+          <p>Creatine synthesis occurs in two enzymatic steps, split across two organs. The first reaction takes place primarily in the kidney. The second takes place in the liver. The intermediate product, guanidinoacetate (GAA), travels through the bloodstream between these two sites. This inter-organ relay is one of the more distinctive features of creatine biochemistry.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Is step one safe?</h3>
+          <p>The first enzyme is arginine-glycine amidinotransferase, abbreviated AGAT (also known as GATM, the gene name). AGAT catalyzes the transfer of an amidino group from arginine to glycine, producing guanidinoacetate (GAA) and ornithine as a byproduct. This reaction occurs primarily in the renal tubular cells of the kidney, though AGAT expression has also been detected in the pancreas and brain at lower levels.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Is step two safe?</h3>
+          <p>Guanidinoacetate produced in the kidney enters the bloodstream and is taken up by the liver. There, the enzyme guanidinoacetate N-methyltransferase (GAMT) catalyzes the transfer of a methyl group from S-adenosylmethionine (SAM) to GAA, producing creatine and S-adenosylhomocysteine (SAH).</p>
+        </div>
+        <div class="faq-item">
+          <h3>What is the synthesis rate?</h3>
+          <p>The human body synthesizes approximately 1 gram of creatine per day through the AGAT-GAMT pathway. This figure, widely cited in the literature, was established through metabolic balance studies and isotope tracer experiments. It represents the production rate needed to replace daily creatine losses.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What is the relationship between vegetarian and vegan creatine status?</h3>
+          <p>Burke and colleagues (2003) compared muscle creatine concentrations between vegetarians and omnivores. Vegetarians had significantly lower intramuscular creatine and phosphocreatine stores. The difference was approximately 20-30% lower total creatine in vegetarians compared to omnivores matched for age, sex, and physical activity level.</p>
+        </div>
+      </section>
+      
+      </article>
+
+      <!-- In-article CTA -->
+      <div class="cta-box">
+        <h3>Stay Current on Creatine Research</h3>
+        <p>Get evidence-based updates when new studies are published. No hype, no marketing — just what the science shows.</p>
+        <a href="#newsletter" class="cta-button">Get Research Updates</a>
+      </div>
+
+      <!-- Pillar page link -->
+      <div class="related-articles">
+        <h3>Read the Full Guide</h3>
+        <p style="margin-bottom: 0.75rem;"><a href="/science/creatine-mechanisms-summary">Complete Science Guide: Science & Mechanisms</a> — comprehensive overview with all cited sources.</p>
+      </div>
+    </div>
+
+    <!-- Category nav -->
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 mt-12">
+      <div class="flex items-center justify-between p-5 bg-slate-100 dark:bg-zinc-900/50 border border-slate-200 dark:border-zinc-800/60 rounded-xl">
+        <div>
+          <p class="text-xs text-slate-500 dark:text-zinc-600 uppercase tracking-wider mb-1">Category</p>
+          <a href="/science" class="text-slate-800 dark:text-zinc-200 font-medium hover:text-sky-600 dark:hover:text-sky-400 transition-colors">Science & Mechanisms</a>
+        </div>
+        <a href="/science" class="text-sm text-sky-600 dark:text-sky-400 font-medium hover:underline">Browse all &rarr;</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Newsletter section -->
+  <section id="newsletter" class="py-16 bg-slate-100 dark:bg-zinc-900/30 border-t border-slate-200 dark:border-zinc-800/60">
+    <div class="max-w-xl mx-auto px-6 text-center">
+      <h2 class="font-serif text-3xl text-slate-900 dark:text-zinc-100 mb-3">Research Updates</h2>
+      <p class="text-slate-600 dark:text-zinc-400 mb-6">New studies, mechanism breakdowns, and dosing insights — delivered when they matter. No spam. Unsubscribe anytime.</p>
+      <form class="flex flex-col sm:flex-row gap-3 justify-center" onsubmit="return false;">
+        <input type="email" placeholder="your@email.com" class="px-4 py-3 rounded-lg border border-slate-300 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-sky-500 w-full sm:w-72">
+        <button type="submit" class="px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-semibold rounded-lg transition-colors cta-glow">Subscribe</button>
+      </form>
+      <p class="text-xs text-slate-500 dark:text-zinc-600 mt-3">100% evidence-based. Every claim cited.</p>
+    </div>
+  </section>
+
+
+  <footer class="py-16 border-t border-slate-200 dark:border-zinc-900">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-2 md:grid-cols-6 gap-8 mb-12">
+        <div class="col-span-2 md:col-span-2">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-8 h-8 rounded bg-slate-100 dark:bg-zinc-800 border border-slate-200 dark:border-zinc-700 flex items-center justify-center">
+              <svg class="w-4 h-4 text-sky-600 dark:text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+            </div>
+            <span class="text-slate-700 dark:text-zinc-300 font-medium">Creatine Research</span>
+          </div>
+          <p class="text-sm text-slate-600 dark:text-zinc-500 mb-6 max-w-xs">Evidence-based creatine research. Every claim cited. No marketing hype.</p>
+          <a href="#newsletter" class="inline-block px-5 py-2 text-sm font-semibold bg-sky-600 hover:bg-sky-500 text-white rounded-md transition-colors">Research Updates</a>
+        </div>
+        <div>
+          <p class="text-xs text-slate-500 dark:text-zinc-600 uppercase tracking-wider mb-4">Research</p>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/science" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">Science</a></li>
+            <li><a href="/dosing" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">Dosing</a></li>
+            <li><a href="/safety" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">Safety</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs text-slate-500 dark:text-zinc-600 uppercase tracking-wider mb-4">Applications</p>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/sports" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">By Sport</a></li>
+            <li><a href="/comparisons" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">Comparisons</a></li>
+            <li><a href="/quality" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">Product Quality</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs text-slate-500 dark:text-zinc-600 uppercase tracking-wider mb-4">Guides</p>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/science/creatine-mechanisms-summary" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">Science Guide</a></li>
+            <li><a href="/dosing/creatine-dosing-protocols-summary" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">Dosing Guide</a></li>
+            <li><a href="/safety/creatine-safety-complete-guide" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">Safety Guide</a></li>
+            <li><a href="/quality/creatine-buying-guide" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">Buying Guide</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs text-slate-500 dark:text-zinc-600 uppercase tracking-wider mb-4">Site</p>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">Home</a></li>
+            <li><a href="/articles" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">All Articles</a></li>
+            <li><a href="https://scalewithsearch.com" target="_blank" class="text-slate-600 dark:text-zinc-500 hover:text-slate-900 dark:hover:text-white transition-colors">Scale With Search</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pt-8 border-t border-slate-200 dark:border-zinc-900 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-xs text-slate-500 dark:text-zinc-700">&copy; 2026 Creatine Research. All cited sources are property of their respective authors.</p>
+        <p class="text-xs text-slate-500 dark:text-zinc-700">Powered by <a href="https://scalewithsearch.com" target="_blank" class="text-slate-600 dark:text-zinc-500 hover:text-sky-500">Scale With Search</a></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    // Theme
+    if (localStorage.theme === 'light') {
+      document.documentElement.classList.remove('dark');
+    } else if (localStorage.theme === 'dark' || !('theme' in localStorage)) {
+      document.documentElement.classList.add('dark');
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.classList.add('dark');
+    }
+
+    // Mega menu
+    (function() {
+      const triggers = document.querySelectorAll('.mega-trigger');
+      const panels = document.querySelectorAll('.mega-panel');
+      let activePanel = null;
+      let closeTimeout = null;
+
+      function openPanel(id) {
+        clearTimeout(closeTimeout);
+        panels.forEach(p => { p.classList.add('hidden'); });
+        triggers.forEach(t => t.setAttribute('aria-expanded', 'false'));
+        const panel = document.getElementById('mega-' + id);
+        const trigger = document.querySelector('[data-mega="' + id + '"] .mega-trigger');
+        if (panel) { panel.classList.remove('hidden'); activePanel = panel; }
+        if (trigger) trigger.setAttribute('aria-expanded', 'true');
+      }
+
+      function scheduleClose() {
+        closeTimeout = setTimeout(() => {
+          panels.forEach(p => p.classList.add('hidden'));
+          triggers.forEach(t => t.setAttribute('aria-expanded', 'false'));
+          activePanel = null;
+        }, 200);
+      }
+
+      function cancelClose() { clearTimeout(closeTimeout); }
+
+      triggers.forEach(btn => {
+        const wrapper = btn.closest('[data-mega]');
+        const id = wrapper.getAttribute('data-mega');
+        btn.addEventListener('mouseenter', () => openPanel(id));
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const panel = document.getElementById('mega-' + id);
+          if (panel && !panel.classList.contains('hidden')) {
+            panel.classList.add('hidden');
+            btn.setAttribute('aria-expanded', 'false');
+          } else {
+            openPanel(id);
+          }
+        });
+        wrapper.addEventListener('mouseleave', scheduleClose);
+      });
+
+      panels.forEach(panel => {
+        panel.addEventListener('mouseenter', cancelClose);
+        panel.addEventListener('mouseleave', scheduleClose);
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('[data-mega]') && !e.target.closest('.mega-panel')) {
+          panels.forEach(p => p.classList.add('hidden'));
+          triggers.forEach(t => t.setAttribute('aria-expanded', 'false'));
+        }
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          panels.forEach(p => p.classList.add('hidden'));
+          triggers.forEach(t => t.setAttribute('aria-expanded', 'false'));
+        }
+      });
+    })();
+
+    // Mobile menu
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuIcon = document.getElementById('menu-icon');
+    const closeIcon = document.getElementById('close-icon');
+    if (mobileMenuBtn) {
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        menuIcon.classList.toggle('hidden');
+        closeIcon.classList.toggle('hidden');
+      });
+    }
+
+    // Mobile accordion sections
+    document.querySelectorAll('.mobile-section-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const section = btn.nextElementSibling;
+        const chevron = btn.querySelector('svg');
+        section.classList.toggle('hidden');
+        chevron.style.transform = section.classList.contains('hidden') ? '' : 'rotate(180deg)';
+      });
+    });
+  </script>
+</body>
+</html>
