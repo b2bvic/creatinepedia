@@ -103,9 +103,9 @@ function buildTemplate(title, description, schemaBlocks, articleContent, categor
   <title>${safeTitle}</title>
   <meta name="description" content="${safeDesc}">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://creatineresearch.co/${category}/${slug}">
+  <link rel="canonical" href="https://creatinepedia.com/${category}/${slug}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://creatineresearch.co/${category}/${slug}">
+  <meta property="og:url" content="https://creatinepedia.com/${category}/${slug}">
   <meta property="og:title" content="${safeTitle}">
   <meta property="og:description" content="${safeDesc}">
   <meta property="og:site_name" content="Creatine Research">

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Sitemap Generator for creatineresearch.co
+ * Sitemap Generator for creatinepedia.com
  *
  * Scans HTML files and generates sitemap.xml with:
  * - Priority scoring based on content type
@@ -20,7 +20,7 @@ const path = require('path');
 
 // Configuration
 const CONFIG = {
-  baseUrl: 'https://creatineresearch.co',
+  baseUrl: 'https://creatinepedia.com',
   contentDir: path.resolve(__dirname, '..'),
   outputFile: path.resolve(__dirname, '..', 'sitemap.xml'),
   indexFile: path.resolve(__dirname, '..', 'sitemap-index.xml'),

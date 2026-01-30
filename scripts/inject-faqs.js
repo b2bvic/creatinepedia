@@ -181,7 +181,7 @@ function injectFaq(html, category, slug) {
     const faqHtml = buildFaqHtml(qaPairs);
 
     // Build FAQ schema
-    const url = `https://creatineresearch.co/${category}/${slug}`;
+    const url = `https://creatinepedia.com/${category}/${slug}`;
     const faqSchema = buildFaqSchema(qaPairs, url);
 
     // Inject FAQ HTML before </article>

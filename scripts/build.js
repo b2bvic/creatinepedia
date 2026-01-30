@@ -19,7 +19,7 @@ const CONFIG = {
     distDir: path.join(__dirname, '..', 'dist'),
     templateDir: path.join(__dirname, '..', 'templates'),
     rootDir: path.join(__dirname, '..'),
-    siteUrl: 'https://creatineresearch.co',
+    siteUrl: 'https://creatinepedia.com',
     siteName: 'Creatine Research',
     author: 'Scale With Search',
     defaultOgImage: '/images/og-default.webp'

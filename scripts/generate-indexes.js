@@ -102,9 +102,9 @@ function pageShell(title, description, canonicalPath, bodyContent) {
   <title>${safeTitle} | Creatine Research</title>
   <meta name="description" content="${safeDesc}">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://creatineresearch.co${canonicalPath}">
+  <link rel="canonical" href="https://creatinepedia.com${canonicalPath}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://creatineresearch.co${canonicalPath}">
+  <meta property="og:url" content="https://creatinepedia.com${canonicalPath}">
   <meta property="og:title" content="${safeTitle}">
   <meta property="og:description" content="${safeDesc}">
   <meta property="og:site_name" content="Creatine Research">
