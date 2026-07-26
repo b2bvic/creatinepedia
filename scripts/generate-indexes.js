@@ -184,7 +184,7 @@ function generateHubPage() {
     <div class="max-w-6xl mx-auto px-6">
       <div class="max-w-3xl mb-16">
         <h1 class="font-serif text-4xl md:text-5xl leading-tight text-slate-900 dark:text-zinc-100 mb-4">Encyclopedia</h1>
-        <p class="text-lg text-slate-600 dark:text-zinc-500">100 entries on creatine supplementation. Every claim cited from peer-reviewed sources.</p>
+        <p class="text-lg text-slate-600 dark:text-zinc-500">100 entries on creatine supplementation. Entries include cited sources for readers to verify.</p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-20">
@@ -201,7 +201,7 @@ ${articleGrid}
 
     return pageShell(
         'Articles',
-        `${totalArticles} research-grade articles on creatine supplementation. Every claim cited from peer-reviewed sources.`,
+        `${totalArticles} research-grade articles on creatine supplementation. Entries include cited sources for readers to verify.`,
         '/articles',
         body
     );
@@ -258,7 +258,7 @@ ${articleList}
 
       <div class="mt-16 p-8 bg-white dark:bg-zinc-900/30 border border-slate-200 dark:border-zinc-800/60 rounded-xl text-center">
         <h2 class="font-serif text-2xl text-slate-900 dark:text-zinc-100 mb-3">The Creatine Encyclopedia</h2>
-        <p class="text-slate-600 dark:text-zinc-500 mb-6">Every claim cited from peer-reviewed sources. Get notified when new entries are published.</p>
+        <p class="text-slate-600 dark:text-zinc-500 mb-6">Entries include cited sources for readers to verify. Get notified when new entries are published.</p>
         <a href="#newsletter" class="inline-block px-8 py-3 bg-sky-600 hover:bg-sky-500 text-white font-semibold rounded-lg transition-colors">Get New Entries</a>
       </div>
     </div>`;

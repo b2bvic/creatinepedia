@@ -240,7 +240,7 @@ ${megaNavHtml}
         <input type="email" placeholder="your@email.com" class="px-4 py-3 rounded-lg border border-slate-300 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-sky-500 w-full sm:w-72">
         <button type="submit" class="px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-semibold rounded-lg transition-colors cta-glow">Subscribe</button>
       </form>
-      <p class="text-xs text-slate-500 dark:text-zinc-600 mt-3">100% evidence-based. Every claim cited.</p>
+      <p class="text-xs text-slate-500 dark:text-zinc-600 mt-3">Source-linked reference material. Check the cited studies.</p>
     </div>
   </section>
 

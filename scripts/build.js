@@ -399,7 +399,7 @@ function loadTemplate() {
             </div>
             <section class="my-16 p-8 bg-gradient-to-br from-accent/20 via-surface to-surface-light rounded-2xl border border-accent/20 text-center">
                 <h2 class="text-2xl font-bold mb-4">The Creatine Encyclopedia</h2>
-                <p class="text-lg text-text-muted mb-6">Every claim cited from peer-reviewed sources. Get notified when new entries are published.</p>
+                <p class="text-lg text-text-muted mb-6">Entries include cited sources for readers to verify. Get notified when new entries are published.</p>
                 <a href="#newsletter" class="inline-flex items-center justify-center px-8 py-4 bg-accent hover:bg-accent-light text-white text-lg font-semibold rounded-xl transition-colors">Get New Entries</a>
             </section>
         </article>
@@ -407,6 +407,7 @@ function loadTemplate() {
     <footer class="bg-void border-t border-border py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p class="text-text-dim">&copy; ${new Date().getFullYear()} ${CONFIG.siteName}. All rights reserved.</p>
+            <p class="mt-4 text-sm text-text-dim">Medical disclaimer: This site is for general education, not medical advice. Talk with a qualified clinician before changing supplements, especially if you have a medical condition, take medication, are pregnant, or are under 18.</p>
         </div>
     </footer>
     <script>

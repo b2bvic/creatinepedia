@@ -103,7 +103,7 @@ const megaNavHtml = `
             <div class="bg-gradient-to-br from-sky-500/10 to-teal-500/5 dark:from-sky-500/15 dark:to-teal-500/5 border border-sky-500/20 rounded-xl p-6 flex flex-col justify-between">
               <div>
                 <h3 class="text-lg font-semibold text-slate-900 dark:text-zinc-100 mb-2">The Creatine Encyclopedia</h3>
-                <p class="text-sm text-slate-600 dark:text-zinc-400 mb-4">100 entries. Every claim cited from peer-reviewed sources. No marketing. No supplement sales.</p>
+                <p class="text-sm text-slate-600 dark:text-zinc-400 mb-4">100 entries. Entries include cited sources for readers to verify. No marketing. No supplement sales.</p>
               </div>
               <a href="/science/creatine-mechanisms-summary" class="inline-flex items-center justify-center px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-semibold rounded-lg text-sm transition-colors cta-glow">
                 Start Reading
@@ -397,7 +397,7 @@ const footerHtml = `
             </div>
             <span class="text-slate-700 dark:text-zinc-300 font-medium">Creatinepedia</span>
           </div>
-          <p class="text-sm text-slate-600 dark:text-zinc-500 mb-6 max-w-xs">The creatine encyclopedia. 100 entries cited from peer-reviewed sources.</p>
+          <p class="text-sm text-slate-600 dark:text-zinc-500 mb-6 max-w-xs">The creatine encyclopedia. Entries include source links for readers to inspect.</p>
           <a href="#newsletter" class="inline-block px-5 py-2 text-sm font-semibold bg-sky-600 hover:bg-sky-500 text-white rounded-md transition-colors">New Entries</a>
         </div>
         <div>
@@ -438,6 +438,7 @@ const footerHtml = `
         <p class="text-xs text-slate-500 dark:text-zinc-700">&copy; 2026 Creatinepedia. All cited sources are property of their respective authors.</p>
         <p class="text-xs text-slate-500 dark:text-zinc-700">Powered by <a href="https://scalewithsearch.com" target="_blank" class="text-slate-600 dark:text-zinc-500 hover:text-sky-500">Scale With Search</a></p>
       </div>
+      <p class="mt-6 text-xs text-slate-500 dark:text-zinc-600">Medical disclaimer: This site is for general education, not medical advice. Talk with a qualified clinician before changing supplements, especially if you have a medical condition, take medication, are pregnant, or are under 18.</p>
     </div>
   </footer>`;
 
